@@ -46,7 +46,7 @@ export default class Products {
                     
                  </div>
              </div>
-                    `;
+             `;
 
 
             row.appendChild(col);
