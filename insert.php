@@ -1,5 +1,5 @@
 <?php
-
+require "settings/init.php";
 ?>
 
 <!DOCTYPE html>
@@ -32,15 +32,10 @@
             </label>
             </div>
 
-        <div class="col-md-6">
-                <label for="prodPrice" class="form-label">Product Price</label>
-                <input type="number" style="0.1" class="form-control" id="prodPrice" name="data[prodPrice]">
-            </div>
-
             <div class="col-12">
                 <label class="form-label" for="prodPicture"></label>
-                    <input type="file" class="form-control" id="prodPicture" name="prodPicture"
-                </div>
+                    <input type="file" class="form-control" id="prodPicture" name="prodPicture">
+            </div>
 
 
             <div class="col-12">
